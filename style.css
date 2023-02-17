@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+/* font-family: 'Anton', sans-serif;*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    background-image: linear-gradient(to bottom right, brown, orange, white);
+}
+.cabecalho{
+    background-color: transparent;
+    backdrop-filter: blur(10px); 
+    width: 100%;
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    background: rgba(221, 214, 214, 0.199);
+}
+.barra-de-navegacao{
+    display: flex;
+    gap: 32px;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+.conteudo-cabecalho{
+    font-family: 'Anton', sans-serif;
+    color:crimson;
+    font-weight: 350;
+    font-size: 15px;
+}
+.conteudo{
+    margin-bottom: 50px;
+    border-top: 0.4px solid crimson;
+}
+.menu-principal{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.leonardo-menu{
+    width: 400px;
+    height: 500px;
+    padding-top: 100px;
+}
+.conteudo-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.menu-nome{
+    font-family: 'Anton', sans-serif;
+    font-weight: 450;
+    font-size: 64px;
+    color: rgba(255, 255, 255, 0.815)
+}
+.menu-funcao{
+    font-family: 'Anton', sans-serif;
+    font-weight: 350px;
+    font-size: 32px;
+    color: rgba(255, 255, 255, 0.815)
+}
+.botao-sobremim{
+    width: 160px;
+    height: 60px;
+    border: none;
+    border-radius: 20px;
+}
+.conteudo-sobremim{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    gap: 24px;
+}
+.descricao-sobremim{
+    font-family: 'Anton', sans-serif;
+    font-weight: 350px;
+    font-size: 32px;
+    color: crimson;
+}
+.sobremim-paragrafo{
+    font-family: 'Anton', sans-serif;
+    font-weight: 350px;
+    font-size: 32px;
+    color: crimson;
+}
