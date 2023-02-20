@@ -7,9 +7,12 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+html {
+    scroll-behavior: smooth;
+}
 body{
     font-size: 100%;
-    background-image: linear-gradient(to bottom right, brown, rgba(134, 7, 7, 0.452), black);
+    background-image: linear-gradient(to right, #7268e3,  #8662cf, #965dbf, #aa57a7);
 }
 .cabecalho{
     background-color: transparent;
@@ -31,15 +34,40 @@ body{
     width: 100px;
     height: 100px;
 }
-.conteudo-cabecalho{
+.conteudo-cabecalho1{
     font-family: 'Lemon Days', sans-serif;
-    color: brown;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    color: white;
+    font-weight: 350;
+    font-size: 24px;
+}
+.conteudo-cabecalho2{
+    font-family: 'Lemon Days', sans-serif;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    color: white;
+    font-weight: 350;
+    font-size: 24px;
+}
+.conteudo-cabecalho3{
+    font-family: 'Lemon Days', sans-serif;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    color: white;
+    font-weight: 350;
+    font-size: 24px;
+}
+.conteudo-cabecalho4{
+    font-family: 'Lemon Days', sans-serif;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    color: white;
     font-weight: 350;
     font-size: 24px;
 }
 .conteudo{
     margin-bottom: 50px;
-    border-top: 0.4px solid crimson;
 }
 .menu-principal{
     padding-top: 100px;
@@ -60,13 +88,17 @@ body{
 }
 .menu-nome{
     font-family: 'Anton', sans-serif;
-    font-weight: 450;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+    font-weight: 200;
     font-size: 64px;
     color: rgba(255, 255, 255, 0.815)
 }
 .menu-funcao{
     font-family: 'Lemon Days', sans-serif;
-    font-weight: 350px;
+    font-weight: 150px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
     font-size: 32px;
     color: rgba(255, 255, 255, 0.815)
 }
@@ -87,11 +119,12 @@ body{
 }
 .descricao-sobremim{
     display: flex;
-    position: relative;
     font-family: 'Lemon Days', sans-serif;
     font-weight: 350px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
     font-size: 32px;
-    color: crimson;
+    color: white;
     border-top: 0.4px solid #FFF2E7;
     padding-top: 25px;
 }
@@ -101,7 +134,7 @@ body{
     font-family: 'Anton', sans-serif;
     font-weight: 350px;
     font-size: 32px;
-    color: crimson;
+    color: whitesmoke;
 }
 .conteudo-habilidades{
     display: flex;
@@ -115,8 +148,10 @@ body{
     position: relative;
     font-family: 'Lemon Days', sans-serif;
     font-weight: 350px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
     font-size: 32px;
-    color: crimson;
+    color: white;
     border-top: 0.4px solid #FFF2E7;
     padding-top: 25px;
 }
@@ -126,7 +161,7 @@ body{
     font-family: 'Anton', sans-serif;
     font-weight: 350px;
     font-size: 32px;
-    color: crimson;
+    color: white;
 }
 .conteudo-experiencias{
     display: flex;
@@ -140,8 +175,10 @@ body{
     position: relative;
     font-family: 'Lemon Days', sans-serif;
     font-weight: 350px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
     font-size: 32px;
-    color: crimson;
+    color: white;
     border-top: 0.4px solid #FFF2E7;
     padding-top: 25px;
 }
@@ -151,5 +188,5 @@ body{
     font-family: 'Anton', sans-serif;
     font-weight: 350px;
     font-size: 32px;
-    color: crimson;
+    color: white;
 }
